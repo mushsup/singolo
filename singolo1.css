@@ -47,7 +47,9 @@ color: #494E62;
 padding-right: 28px;
     margin-bottom: -7px;
 }
-
+.active{
+    color: #F06C64;
+}
 .main-menu li:hover a  {
    color: #F06C64;
 }
