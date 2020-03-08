@@ -1,0 +1,191 @@
+@font-face {
+    font-family: Lato;
+    src: url("assets/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: "Lato Bold";
+    src: url("assets/Lato-Bold.ttf");
+}
+@font-face {
+    font-family: "Lato Black";
+    src: url("assets/Lato-Black.ttf");
+}
+@font-face {
+    font-family: "Lato Light";
+    src: url("assets/Lato-Light.ttf");
+}
+body{
+    margin: 0px;
+    max-width: 1020px;
+}
+.quote {
+    background-color: #f06c64;
+    border-bottom: #ea676b solid 6px;
+    padding: 40px;
+    padding-bottom: 11px;
+    color: #f0d8d9;
+}
+
+.quote h1 {
+    font-family: "Lato Black";
+    font-size: 30px;
+    letter-spacing: -0.2px;
+    margin-bottom: 0px;
+}
+.quote-desc{
+    word-wrap: break-word;
+    text-align: justify;
+    font-family: "Lato Light";
+    font-size: 18px;
+    line-height: 30px;
+/*    padding-top: 8px;*/
+    padding-bottom: 0px;
+}
+
+/*FORM   */
+ .contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+ }
+.form{
+    padding-top: 11px; 
+   width: 66%;
+
+}
+.contact-info{
+width: 32%;;
+padding-top: 8px;
+padding-left: 18px;
+}
+.form input,  
+.form textarea {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 5px;
+  background: #d6564f;
+  border-width: 0;
+}
+
+.form input {
+    line-height: 36px; 
+    color: white;
+    padding-: 10px;
+  }
+
+
+
+
+  .form input:invalid {
+    background-color: #FF0000;
+  }
+
+.form textarea{
+    resize: none;
+    width: 616px;
+  }
+.contact-info h2{
+font-family: "Lato Black";
+font-size: 18px;
+margin-bottom: 0px;
+color: #f0d8d9;
+}
+.contact-info p{
+    font-family: "Lato";
+    font-size: 12px;
+    margin: 8px;
+    margin-right: 0px;
+    margin-left: 1px;
+    color: #f0d8d9;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: -0.2px;
+    }
+    
+
+
+
+#butt {
+    background-color: white;
+    color: #d6564f ;
+}
+
+::placeholder {
+text-align: left center;
+color:#f48c8f;
+padding-left: 15px;
+font-family:"Lato";
+font-size: 12px;
+}
+textarea::placeholder {
+    padding-top: 10px;
+    padding-left: 13px;
+    font-size: 12px;
+    color:#f48c8f;
+}
+
+
+.contact-form li a{
+    font-family:"Lato";
+    color:#f0d8d9;
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+ .contact-form li{
+list-style: none;
+padding-bottom: 3px;
+padding-left: 21px;
+position: relative;
+} 
+ .contact-form ul{
+    padding: 0px;
+    padding-top: 8px;
+    padding-left: 3px;
+} 
+.contact-form img{
+    position: absolute;
+    left: -1px;
+    top:5px;
+} 
+
+/*FOOTER   */
+
+.footer {
+    background-color: #2d303a;
+    color: #666d89 ;
+    height: 76px;
+    font-size: 12px;
+    font-family:"Lato";
+}
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    margin-right: 6px;
+    margin-top: 14px;
+    border: 1px #666d89 solid;
+    border-radius: 34px;
+    
+}
+.icon:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+.icon img {
+    width: 14px;
+    height: 14px;
+    margin: 3px;
+}
+.footer p{
+    float: left;
+    padding: 18px;
+    padding-left: 43px;
+}
+.social {
+    padding-right: 34px;
+    padding-top: 8px;
+    float: right;
+}
